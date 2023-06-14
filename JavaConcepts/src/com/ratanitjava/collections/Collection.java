@@ -2,6 +2,10 @@ package com.ratanitjava.collections;
 
 import java.util.ArrayList;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class Collection {
 
 	/*

@@ -1,5 +1,10 @@
 package com.ratanitjava.collections;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
+
 public class Emp {
 
 	int eid;

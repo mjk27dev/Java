@@ -3,6 +3,10 @@ package com.ratanitjava.exceptions;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class ExceptionHandling {
 	
 void m3() {
