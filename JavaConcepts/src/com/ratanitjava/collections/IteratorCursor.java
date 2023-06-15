@@ -3,6 +3,11 @@ package com.ratanitjava.collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
+
 //Iterator is unidirectional, used for remove operations
 
 public class IteratorCursor {
@@ -42,6 +47,7 @@ public class IteratorCursor {
 			}
 			
 			}
+		
 		
 	
 	}

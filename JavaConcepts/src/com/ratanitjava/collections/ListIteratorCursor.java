@@ -3,6 +3,11 @@ package com.ratanitjava.collections;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
+
 public class ListIteratorCursor {
 
 	/* List Iterator is introduce in 1.2 and only used for List Classes, not a
@@ -15,7 +20,7 @@ public class ListIteratorCursor {
 		ArrayList<String> arrayList = new ArrayList<String>();
 		arrayList.add("Ayumi");
 		arrayList.add("Michelle");
-		arrayList.add("Jill Valentine");
+		arrayList.add("Jill");
 		arrayList.add("Sheva");
 		
 		//ListIterator with normal collection - print the data forward and backward direction.
@@ -42,6 +47,17 @@ public class ListIteratorCursor {
 			System.out.println("Printing backward: "+string1);
 		}
 		
+		ListIterator<String> listIterator3 = arrayList.listIterator();
+		listIterator3.add("Leon");
+		while (listIterator3.hasNext()) {
+			String str = listIterator3.next();
+			if(str.equals("Sheva")) 
+				listIterator3.remove();
+			if(str.equals("Jill"))
+				listIterator3.set("Jill Valentine");
+			
+		}
+System.out.println(arrayList);
 
 	}
 
