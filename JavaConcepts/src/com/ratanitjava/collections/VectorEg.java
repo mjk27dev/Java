@@ -16,10 +16,11 @@ public class VectorEg {
 	/*
 	 * ArrayList is introduced in Java 1.2, it is non Synchronized ie: can access
 	 * multiple threads and it is not thread safe and increased in performance.
+	 * ArrayList underlying data structure is resizable Array.
 	 *
 	 * Vector is introduced in Java 1.0, it is synchronized ie: only one thread can
 	 * access at a time and it is thread safe and performance is slow compared to
-	 * ArrayList
+	 * ArrayList.
 	 */
 
 //	Vector is having 3 constructors

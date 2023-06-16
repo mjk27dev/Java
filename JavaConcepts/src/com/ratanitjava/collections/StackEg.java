@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 public class StackEg {
 
-	/* Vector is a List interface implementation class. It is a legacy class and it
+	/* Stack is a List interface implementation class. It is a legacy class and it
 	 * is introduced in Java 1.0. It is synchronized and thread safe. It follow Last in First Out (LIFO) order.
 	 * Performance decreased of thread safety.
 	 */

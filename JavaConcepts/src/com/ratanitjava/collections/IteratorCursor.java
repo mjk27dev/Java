@@ -8,7 +8,7 @@ import java.util.Iterator;
  *
  */
 
-//Iterator is unidirectional, used for remove operations
+//Iterator is unidirectional, used for remove operations. Iterator is applied for all classes.
 
 public class IteratorCursor {
 
@@ -42,12 +42,10 @@ public class IteratorCursor {
 			if(book.id == 2) {
 				iterator2.remove();
 			}
-			for(Book book1 : arrayList2) {
-				System.out.println(book1.id+" "+book1.name+" "+book1.author);
 			}
-			
-			}
-		
+		for(Book book1 : arrayList2) {
+			System.out.println(book1.id+" "+book1.name+" "+book1.author);
+		}
 		
 	
 	}
