@@ -14,9 +14,9 @@ import java.util.Set;
 public class LinkedHashSetEg {
 
 	/* 1. LinkedHashSet is introduced in 1.4
-	 * 2. It allows heterogeneous data is allowed 
+	 * 2. It allows heterogeneous data
 	 * 3. Null insertion allowed 
-	 * 4. Duplicates is not allowed
+	 * 4. Duplicates are not allowed
 	 * 5. Insertion order is maintained
 	 * 6. It is Not Synchronized
 	 * 7. LinkedHashSet's Underlying data structure is Hash table and doubly-linked list 

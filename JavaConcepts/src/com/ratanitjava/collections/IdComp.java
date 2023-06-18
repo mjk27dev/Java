@@ -2,6 +2,11 @@ package com.ratanitjava.collections;
 
 import java.util.Comparator;
 
+
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class IdComp implements Comparator<Product>{
 
 	@Override

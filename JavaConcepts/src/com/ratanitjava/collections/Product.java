@@ -7,7 +7,7 @@ package com.ratanitjava.collections;
 
 public class Product implements Comparable {
 
-	int productId;
+	Integer productId;
 	String productName;
 	Double productCost;
 	

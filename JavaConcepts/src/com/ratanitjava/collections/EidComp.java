@@ -2,6 +2,10 @@ package com.ratanitjava.collections;
 
 import java.util.Comparator;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class EidComp implements Comparator{
 
 	@Override

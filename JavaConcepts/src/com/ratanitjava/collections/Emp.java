@@ -5,7 +5,7 @@ package com.ratanitjava.collections;
  *
  */
 
-public class Emp implements Comparable<Emp>{
+public class Emp implements Comparable<Emp> {
 
 	int eid;
 	String name;
