@@ -1,6 +1,12 @@
 package com.ratanitjava.abstractclasses;
 
-// No complete implementation of all methods in the child class make class as abstract
+
+/**
+ * @author Manoj Kumar
+ *
+ */
+
+//No complete implementation of all methods in the child class make class as abstract
 public abstract class OverrideAbstClass extends AbstractClassesEx
 {
 	@Override

@@ -1,5 +1,9 @@
 package com.ratanitjava.oopsconcepts;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class MethodOverridingExceptionHandl {
 
 	/*

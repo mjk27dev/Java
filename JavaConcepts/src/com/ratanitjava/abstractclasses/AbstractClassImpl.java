@@ -1,6 +1,10 @@
 package com.ratanitjava.abstractclasses;
 
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class AbstractClassImpl extends OverrideAbstClass  {
 	
 	public AbstractClassImpl() {

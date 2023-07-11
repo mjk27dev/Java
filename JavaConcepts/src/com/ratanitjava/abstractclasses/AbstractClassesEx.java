@@ -1,5 +1,9 @@
 package com.ratanitjava.abstractclasses;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public abstract class AbstractClassesEx {
 
 	/*Abstract Class may contains abstract method or may not contains abstract

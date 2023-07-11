@@ -1,5 +1,9 @@
 package com.ratanitjava.oopsconcepts;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class MethodHiding {
 	
 //	rule 9: It is possible to override only the instances methods in Java static methods are not possible to override

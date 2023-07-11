@@ -1,5 +1,9 @@
 package com.ratanitjava.oopsconcepts;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class Polymorphism extends Parent{
 
 	/* One functionality with different behaviour is called Polymorphism and ability

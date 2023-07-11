@@ -1,5 +1,9 @@
 package com.ratanitjava.abstractclasses;
 
+/**
+ * @author Manoj Kumar
+ *
+ */
 public class Test {
 
 	public static void main(String[] args) {
