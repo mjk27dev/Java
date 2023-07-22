@@ -8,20 +8,22 @@ public class Oops {
 
 	/*
 	 * OOP contains OOP principles and Techniques, and the principles are
-	 * Inheritance, Polymorphism,Encapsulation, Coupling and cohesion. Techniques are
+	 * Inheritance, PolyMorphism, Encapsulation, Coupling and cohesion. Techniques are
 	 * Abstraction,Method Hiding, coding through interfaces, coding through abstract
 	 * classes. 
 	 * Class is a logical entity contains logics of the application.It is a blueprint, decides object creation without class no object
 	 * creation. For a single class we can create multiple objects but each object occupies a memory. declare the class using "class" keyword
 	 * Object is a physical entity representing memory.declare the class using "new" keyword
-	 * Object contains state, behavior,identity. state is like color, identity is number, id or hashcode, behavior is methods or logics.
+	 * Object contains state, behavior,identity. state is like color, identity is number, id or hashCode, behavior is methods or logics.
 	 * Inheritance the process of acquiring the properties from Super class or parent class to Base Class or child class.
 	 * we achieve inheritance using the keyword "extends". It is used to avoid code duplication and reduce the length of the code.
 	 * The default super class in java is Object Class. Root class of all Java classes is object class. Every Class contains parent class 
 	 * object class does not contains parent class.Object class is present in java.lang package. To prevent the class from inheritance,
 	 * declare the class as final. if we declare as final we cannot extend the class.Every class is a child of Object class either
 	 * directly or indirectly.
-	 * 
+	 * In Java One class can extends only one class, multiple inheritance is not possible because it create ambiguity. also, Hybrid inheritance is a
+	 * combination of hierarchical and multiple inheritance, so it also not supports multiple inheritance.
+	 * In Java Single,Multilevel and Hierarchical inheritance is possible.
 	 */
 
 }
@@ -83,5 +85,15 @@ class Child1 extends Parent1{
 	}
 	}
 	
+//The type Children cannot subclass the final class Parents1
+
+//final class Parents1{
+//	
+//}
+//
+//class Children extends Parents1{
+//	
+//}
+
 
 	
